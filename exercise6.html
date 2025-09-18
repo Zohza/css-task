@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Sticky Header
+    </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        
+
+        header {
+            background-color: rgb(124, 48, 143);
+            color: black;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            z-index: 10;
+            top: 0;
+            left: 0;
+            width: 100%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+        }
+
+        .nav-item {
+            margin: 15px auto;
+            color: blueviolet;
+            display: inline-block;
+            padding: 8px 16px;
+            text-decoration: none;
+            border: solid 1px;
+            border-radius: 4px;
+            margin-right: 5px;
+
+        }
+
+        .nav-menu {
+            padding: 10px;
+            margin-left: 20px;
+        }
+
+        .nav-item:hover {
+            cursor: pointer;
+            color: yellow;
+        }
+
+        .space {
+            height: 80px;
+        }
+
+        .content-content-container {
+            margin-bottom: 500px;
+        }
+
+        .content-container {
+            background-color: rgb(80, 73, 73);
+            margin: 15px 25px;
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        .content-header {
+            color: rgb(177, 158, 158);
+            font-size: large;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="scroll-section">
+        <header class="header">
+            <p class="Logo">Company Logo</p>
+        </header>
+        <nav class="nav-menu">
+            <a href="#" class="nav-item">Home</a>
+            <a href="#" class="nav-item">About</a>
+            <a href="#" class="nav-item">Services</a>
+            <a href="#" class="nav-item">Contact</a>
+            <a href="#" class="nav-item">Testimonials</a>
+
+        </nav>
+        <div class="space"></div>
+
+        <div class="content-container">
+            <div class="content-content-container">
+                <div class="content-header">Special Announcement: </div>
+                <div class="content-content">
+                    <h4> Discover Our Latest Feature
+                    </h4>
+                    <p> Our new performance dashboard is live! Get real-time insights, monitor
+                        progress at a glance, and make data-driven decisions with ease. We
+                        designed this update based on user feedback — explore it today and
+                        experience the difference.</p>
+                    <hr>
+
+
+                </div>
+            </div>
+            <div class="thought">
+                <h4>Today’s Thought</h4>
+                <p>Every small action counts. Our mission is to build sustainable solutions
+                    that empower businesses and communities. Join us in making conscious
+                    choices for a better future — because meaningful change starts with all
+                    of us.</p>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
