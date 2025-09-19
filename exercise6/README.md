@@ -1,1 +1,1 @@
-![exercise6] (https://github.com/user-attachments/assets/5862e47b-9dd0-43f9-9db2-4be9bdedc3ec)
+![exercise6](https://github.com/user-attachments/assets/5862e47b-9dd0-43f9-9db2-4be9bdedc3ec)
