@@ -1,0 +1,1 @@
+![exercise3](https://github.com/user-attachments/assets/e4e817f1-e48d-4c37-a783-ce2b9fbd82e6)
